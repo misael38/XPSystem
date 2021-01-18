@@ -81,7 +81,7 @@ class XPSystem extends PluginBase{
         $form = new CustomForm(function (Player $sender, $data){
             $result = $data;
             if($result === null) {
-                $this->ExpForm($sender);
+                $this->MainExpForm($sender);
                 return true;
             }             
             if(!empty($data[1])){
@@ -117,7 +117,7 @@ class XPSystem extends PluginBase{
        $form = new CustomForm(function (Player $sender, $data){
             $result = $data;
             if($result === null) {
-                $this->ExpForm($sender);
+                $this->MainExpForm($sender);
                 return true;
             }             
             if(!empty($data[1])){
