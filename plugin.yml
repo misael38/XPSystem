@@ -1,0 +1,10 @@
+name: XPSystem
+main: misael38\XPSystem\XPSystem
+version: 1.0.0
+api: [3.0.0]
+load: POSTWORLD
+author: misael38
+description: Allow your player to buy or sell XP
+commands:
+  xp:
+    description: Buy or sell your XP!
