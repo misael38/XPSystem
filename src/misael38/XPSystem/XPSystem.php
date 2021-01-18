@@ -29,7 +29,7 @@ class XPSystem extends PluginBase{
         }else{
             $this->getServer()->getLogger()->critical("prefix is not a string, please change it.");
         }
-        $this->money = EconomyAPI::getInstance();
+        $this->money = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
     }
 
     public function onDisable(){
