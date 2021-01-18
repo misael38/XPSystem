@@ -1,0 +1,17 @@
+---
+#MORE ABOUT ME:
+#github: https://github.com/misael38
+#Instagram: https://instagram.com/misaelimanuell?igshid=9vcjegn0npgg (@misaelimanuell)
+#Discord : Misaelx_#8452
+
+#use "§" for color format
+
+#The prefix
+prefix: "§7[§eXPSystem§7]"
+
+#The price per xp level to buy it
+price_buy: 1000
+
+#The price per xp level to sell it
+price_sell: 1000
+...
