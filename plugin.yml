@@ -1,10 +1,19 @@
 name: XPSystem
-main: misael38\XPSystem\XPSystem
-version: 1.0.0
+main: misael38\XPSystem\Main
+version: 2.0.0
 api: [3.0.0]
-load: POSTWORLD
 author: misael38
-description: Allow your player to buy or sell XP
-commands:
-  xp:
-    description: Buy or sell your XP!
+description: Open the XPSystem Menu for player and Admin!
+website: https://github.com/misael38/XPSystem
+permissions:
+  xp.all:
+    description: "Allows you to use all XPSystem commands"
+    children:
+      xp.command.admin:
+        description: "Allows you use /xp admin command."
+      xp.command.add:
+        description: "Allows you to add a xp level to other player."	
+      xp.command.set:
+        description: "Allows you to set other player is xp level."
+      xp.command.remove:
+        description: "Allow you to remover other player is xp level."
